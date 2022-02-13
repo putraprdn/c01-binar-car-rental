@@ -1,12 +1,20 @@
 /* 
+*----------------- Root */
+:root {
+	--dark-blue: #0d28a6;
+	--light-blue: #f1f3ff;
+    --primary: #5CB85F;
+}
+
+/* 
 * ---------------- Reset CSS */
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 body,
 h1,
@@ -18,21 +26,112 @@ figure,
 blockquote,
 dl,
 dd {
-  margin: 0;
+	margin: 0;
 }
 img,
 picture {
-  max-width: 100%;
-  display: block;
+	max-width: 100%;
+	display: block;
 }
 input,
 button,
 textarea,
 select {
-  font: inherit;
+	font: inherit;
 }
-
 
 /* 
 * ----------------- Main CSS */
+
+html {
+	/* font-family: Arial, Helvetica, sans-serif !important; */
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.outer {
+	padding-right: 136px !important;
+	padding-left: 136px !important;
+}
+
+header {
+	background-color: var(--light-blue);
+}
+.nav__logo {
+	flex-basis: 50%;
+	width: 100px;
+	height: 34px;
+}
+.nav__logo::after {
+	content: "";
+	position: absolute;
+	width: 100px;
+	height: 34px;
+	background-color: var(--dark-blue);
+}
+.nav__list {
+	flex-basis: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 32px;
+}
+.nav__link {
+	font-size: 14px;
+	line-height: 20px;
+}
+.nav__item:last-child .nav__link {
+	font-weight: bold;
+    background-color: var(--primary);
+    border: none;
+}
+
+#stack {
+}
+.main {
+    padding-right: 0 !important;
+	padding-top: 38px;
+	column-gap: 32px;
+    background-color: var(--light-blue);
+}
+.main__text-wrap {
+	display: flex;
+	width: 50%;
+	flex-basis: 568px;
+	flex-direction: column;
+	row-gap: 16px;
+}
+.main__title {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 150%;
+}
+.main__subtitle {
+	font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+	width: 468px;
+}
+.main__button {
+	width: fit-content;
+	font-size: 14px;
+	font-weight: bold;
+    background-color: var(--primary);
+    border: none;
+}
+.main__image-wrap {
+	background: linear-gradient(transparent 50%, var(--dark-blue) 50%);
+	border-top-left-radius: 25%;
+}
+.main__image {
+	width: 704px;
+	height: 407px;
+}
 
