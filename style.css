@@ -135,3 +135,33 @@ header {
 	height: 407px;
 }
 
+
+.service {
+    margin: 104px 0 138px;
+    column-gap: 86px;
+}
+.service__image-wrap {
+    flex-basis: 50%;
+    max-width: 459px;
+}
+.service__text-wrap {
+    flex-direction: column;
+    flex-basis: 50%;
+    max-width: 458px;
+}
+.service__title {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.service__description {
+    margin-bottom: 16px;
+}
+.service__list {
+    flex-direction: column;
+    row-gap: 20px;
+}
+.service__item {
+    column-gap: 16px;
+}
