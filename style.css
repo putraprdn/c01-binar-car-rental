@@ -140,3 +140,34 @@ header {
 .service__item {
 	column-gap: 16px;
 }
+
+.why-us {
+	/* row-gap: 40px; */
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.why-us__card-group {
+	margin-top: 40px;
+	margin-left: 0;
+	margin-right: 0;
+	gap: 16px;
+}
+.why-us__card-group > div {
+	padding-left: 0;
+	padding-right: 0;
+}
+.why-us__card-inner {
+	row-gap: 16px;
+}
+.why-us__card {
+	width: 268px;
+	height: 196px;
+}
+.why-us__card-image {
+	width: 32px;
+}
+.why-us__card-title {
+	font-size: 16px;
+	line-height: 24px;
+}
+
