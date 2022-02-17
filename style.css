@@ -114,31 +114,29 @@ header {
 }
 
 .service {
-    margin: 104px 0 138px;
-    column-gap: 86px;
+	margin-top: 104px;
 }
 .service__image-wrap {
-    flex-basis: 50%;
-    max-width: 459px;
+	margin-right: 86px;
 }
-.service__text-wrap {
-    flex-direction: column;
-    flex-basis: 50%;
-    max-width: 458px;
+/* .service__text-wrap {
+	flex-basis: 50%;
+	max-width: 458px;
+} */
+.title {
+	font-size: 24px;
+	line-height: 36px;
+	/* font-weight: 700; */
 }
 .service__title {
-    font-size: 24px;
-    line-height: 36px;
-    font-weight: 700;
-    margin-bottom: 24px;
+	margin-bottom: 24px;
 }
 .service__description {
-    margin-bottom: 16px;
+	margin-bottom: 16px;
 }
 .service__list {
-    flex-direction: column;
-    row-gap: 20px;
+	row-gap: 20px;
 }
 .service__item {
-    column-gap: 16px;
+	column-gap: 16px;
 }
