@@ -204,3 +204,27 @@ header {
 	background-color: var(--primary);
 }
 
+.faq {
+	margin-top: 104px;
+}
+
+.accordion .card {
+	border: 1px solid #d4d4d4 !important;
+}
+.accordion .card:not(:first-child) {
+	margin-top: 16px;
+}
+.accordion .card-header {
+	background-color: #fff;
+}
+.accordion button,
+.accordion button:hover,
+.accordion button:focus {
+	color: #000;
+	text-decoration: none;
+}
+.accordion img {
+	width: 12px;
+	height: 6px;
+}
+
